@@ -1,4 +1,7 @@
-## Work in progress...
+## Currently abandoned
+### Meta's restrictions on its platforms are constantly breaking instaloader, the package this bot depends on. So for now I won't be continuing this experiment.
+
+---------------------
 
 You will need to export the following environment variables on your env for the bot to work
 ```

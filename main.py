@@ -53,6 +53,7 @@ async def check_profiles_for_updates(context):
             logging.info(f'No profiles followed by user (chat_id): {chat_id}. Checking loop will stop.')
             return
         for followed_profile in followed_profiles:
+            logging.info('Followed profiles found. Checking posts dates')
             profile = Profile.from_username(loader.context, followed_profile['username'])
             # This performance heavy, as we can't filter by date in the query;
             posts = profile.get_posts()

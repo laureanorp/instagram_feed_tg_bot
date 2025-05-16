@@ -7,7 +7,7 @@ DEFAULT_UPDATE_INTERVAL_HOURS = 4  # how often the bot checks for new posts
 
 # MongoDB setup
 client = MongoClient('mongodb://localhost:27017/')
-db = client['telegram_instagra_feed_bot']
+db = client['telegram_instagram_feed_bot']
 collection = db['user_data']
 
 
